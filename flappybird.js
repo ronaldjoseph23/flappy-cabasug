@@ -149,7 +149,7 @@ function placePipes() {
 function handleTouchStart(event) {
     if (event.touches.length === 1) {
         // perform jump
-        velocityY = -7;
+        velocityY = -4;
 
         // reset game
         if (gameOver) {
@@ -164,7 +164,7 @@ function handleTouchStart(event) {
 function moveBird(e) {
     if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
         //jump
-        velocityY = -7;
+        velocityY = -4;
 
         //reset game
         if (gameOver) {
