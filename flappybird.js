@@ -164,7 +164,7 @@ function handleTouchStart(event) {
 function moveBird(e) {
     if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
         //jump
-        velocityY = -4;
+        velocityY = -7;
 
         //reset game
         if (gameOver) {
